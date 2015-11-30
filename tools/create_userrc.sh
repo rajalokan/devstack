@@ -7,7 +7,7 @@
 # Warning: This script just for development purposes
 
 set -o errexit
-set -o xtrace
+#TODO:Undo set -o xtrace
 
 ACCOUNT_DIR=./accrc
 
