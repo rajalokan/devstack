@@ -11,6 +11,7 @@
 # - if USE_PYTHON3=True, PYTHON3_VERSION refers to a version already installed
 
 set -o errexit
+#OKAN:UNDO set -o xtrace
 
 # Keep track of the current directory
 TOOLS_DIR=$(cd $(dirname "$0") && pwd)

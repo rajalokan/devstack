@@ -23,7 +23,7 @@ function short_source {
     printf "%-40s " "$file:${called[1]}:${called[0]}"
 }
 
-set -o xtrace
+#OKAN:UNDO set -o xtrace
 
 ACCOUNT_DIR=./accrc
 
