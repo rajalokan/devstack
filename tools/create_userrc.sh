@@ -26,7 +26,7 @@ function short_source {
 # export it so child shells have access to the 'short_source' function also.
 export -f short_source
 
-set -o xtrace
+#OC:UNDO set -o xtrace
 
 ACCOUNT_DIR=./accrc
 

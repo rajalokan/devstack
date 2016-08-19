@@ -20,7 +20,7 @@ cd $TOP_DIR
 source $TOP_DIR/stackrc
 
 # don't start tracing until after we've sourced the world
-set -o xtrace
+#OC:UNDO set -o xtrace
 
 FILES=$TOP_DIR/files
 
